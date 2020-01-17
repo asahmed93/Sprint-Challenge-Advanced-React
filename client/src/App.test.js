@@ -13,3 +13,7 @@ it('renders without crashing', () => {
 test('it renders', () => {
   render(<App />)
 })
+
+test('shows player name', () => {
+  getByText(/ Alex Morgan /i)
+})
