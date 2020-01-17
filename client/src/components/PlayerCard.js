@@ -1,7 +1,9 @@
 import React from 'react';
 
+
 function PlayerCard(props){
-    console.log(props.players)
+
+    //console.log(props.players)
     return (
         <div>
             {props.players.map(player => {
