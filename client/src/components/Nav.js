@@ -10,7 +10,7 @@ const Nav = () => {
     return(
         <div>
             <h1>Top Women's Soccer Searches</h1>
-            <button onClick={toggler}> Turn the lights off? {darkMode ? 'dark': 'light'}</button>
+            <button onClick={toggler}> Select Mode: {darkMode ? 'light': 'dark'}</button>
         </div>
     )
 }
