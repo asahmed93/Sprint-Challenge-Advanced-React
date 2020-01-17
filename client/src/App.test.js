@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import { render, getByText } from '@testing-library/react';
+import { render, findByText } from '@testing-library/react';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -15,5 +15,5 @@ test('it renders', () => {
 })
 
 test('shows player name', () => {
-  getByText(/ Alex Morgan /i)
+  findByText(/alex morgan /i)
 })
