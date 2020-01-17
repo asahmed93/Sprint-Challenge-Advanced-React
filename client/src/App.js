@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import axios from 'axios'
 import PlayerCard from "./components/PlayerCard"
+import Nav from "./components/Nav"
 
 class App extends Component{
   constructor(){
@@ -26,6 +27,7 @@ class App extends Component{
   render() {
     return (
       <div className="App">
+        <Nav />
         <PlayerCard players={this.state.players}/>
       </div>
     );

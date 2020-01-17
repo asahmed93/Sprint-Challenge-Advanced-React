@@ -8,8 +8,8 @@ function PlayerCard(props){
                 return (
                     <div key={player.id} >
                         <h1>{player.name}</h1>
-                        <p>{player.country}</p>
-                        <p>{player.searches}</p>
+                        <p>Country: {player.country}</p>
+                        <p>Number of Searches: {player.searches}</p>
                     </div>
                 )
             })}
